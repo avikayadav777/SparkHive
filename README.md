@@ -1,116 +1,16 @@
-# 🚀 SparkHive — Premium Digital Agency Website
+# React + Vite
 
-SparkHive is a modern, production-level digital agency website focused on delivering a premium user experience through elegant UI/UX, smooth animations, responsive layouts, and professional branding.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built using React, Vite, Tailwind CSS, and Framer Motion, this project is designed to represent a real-world digital agency specializing in branding, social media management, PR, web development, podcast strategy, and creative marketing solutions.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ✨ Features
+## React Compiler
 
-* Premium modern UI/UX
-* Fully responsive design
-* Smooth animations using Framer Motion
-* Interactive hero section
-* Modern glassmorphism navbar
-* Professional typography and layout
-* Reusable component architecture
-* Optimized React + Vite setup
-* Clean folder structure for scalability
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🛠️ Tech Stack
-
-### Frontend
-
-* React.js
-* Vite
-* Tailwind CSS
-* Framer Motion
-* React Router DOM
-* React Icons
-
-### Future Enhancements
-
-* Node.js & Express backend
-* MongoDB integration
-* Admin dashboard
-* AI chatbot assistant
-* Dynamic CMS
-* SEO optimization
-
----
-
-## 📂 Project Structure
-
-```bash
-src/
- ├── assets/
- ├── components/
- ├── sections/
- ├── pages/
- ├── layouts/
- ├── animations/
- ├── hooks/
- ├── utils/
- ├── data/
-```
-
----
-
-## 🎯 Vision
-
-SparkHive is not being developed as a basic student project.
-The goal is to build a market-level digital agency platform with professional UI/UX, scalable architecture, and real-world production quality.
-
----
-
-## ⚡ Getting Started
-
-### Clone Repository
-
-```bash
-git clone https://github.com/your-username/SparkHive.git
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Start Development Server
-
-```bash
-npm run dev
-```
-
----
-
-## 🌟 Current Status
-
-* Initial project setup completed
-* Premium hero section completed
-* Responsive navbar completed
-* Tailwind + Framer Motion integrated
-* GitHub workflow configured
-
----
-
-## 📌 Future Goals
-
-* Full services page
-* Portfolio/case studies section
-* Testimonial carousel
-* Contact backend integration
-* Deployment on Vercel
-* Advanced animations & interactions
-
----
-
-## 👨‍💻 Developer
-
-Built with creativity, strategy, and modern frontend development practices by Avika Yadav.
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
